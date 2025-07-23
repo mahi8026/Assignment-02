@@ -29,3 +29,34 @@
 #cart{
     color: #252432;
 }
+
+.banner-container{
+    display: flex;
+    height: 461px;
+    margin: 120px 150px;
+    border: 1px solid blue;
+} 
+.banner-content{
+    
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+
+}
+
+.fresh{
+    color: #E95A08;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1px;
+}
+.banner-img{
+    margin-top: 106px;
+    width: 570px;
+    margin-left: 670px;
+    margin-bottom: 10px;
+}
