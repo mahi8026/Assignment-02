@@ -28,7 +28,7 @@
 }
 #cart{
     color: #252432;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -36,13 +36,11 @@
     display: flex;
     height: 461px;
     margin: 120px 150px;
-    border: 1px solid blue;
 } 
 
 .banner-title{
     font-weight: bold;
     font-size: 4rem;
-
 }
 
 .fresh{
@@ -73,9 +71,6 @@
 }
 .plants-section-content{
     text-align: center;
-}
-.product-content{
-    border: 1px solid green;
 }
 .card-content{
     display: grid;
@@ -115,6 +110,7 @@
 .plants-lover-title{
     font-weight: bold;
     font-size: 50px;
+    margin-top: 0;
 }
 .plants-lover-description{
     font-weight:400;
@@ -202,4 +198,57 @@
   text-decoration: underline;
   font-weight: bold;
   font-size: 0.9rem;
+}
+.news-letter-bg{
+    background-image: url(assets/news-letter-bg.png);
+    height: 533px;
+    text-align: center;
+}
+.subs-title{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.subs-btn{
+    padding: 19px 80px;
+    background-color: #E95A08;
+    color: white;
+    width: 186px;
+    height: 50px;
+    border: none;
+}
+.join-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 199px 305px;
+}
+.email{
+    width: 641px;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.foot-logo{
+    display: table-column;
+}
+.foot-info{
+    display: grid;
+    grid-column: auto;
+}
+.services{
+    display: grid;
+    grid-column: auto;
+}
+.foot-des{
+    color: #8987A1;
+    font-weight: 500;
+    font-size: 22px;
+}
+.social-m{
+    gap: 10px;
 }
