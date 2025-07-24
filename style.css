@@ -54,10 +54,8 @@
     margin-bottom: 1px;
 }
 .banner-img{
-    margin-top: 60px;
-    margin-bottom: 10px;
-    left: 320px;
-    bottom: 130px;
+    margin-top: -30px;
+    margin-left: 80px;
 }
 .plants-title{
     font-weight: bold;
@@ -131,7 +129,7 @@
     height: 286px;
     width: 286px;
     top: -125px;
-    right: -380px;
+    right: -300px;
     position: relative;
 }
 .deal-title{
